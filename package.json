@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "description": "A shareable config for stylelint-processor-styled-components",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "stylelint",
     "stylelint-config",
     "styled-components"
+  ],
+  "files": [
+    "index.js"
   ],
   "author": "ismay",
   "license": "MIT"
