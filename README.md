@@ -1,9 +1,10 @@
 # `stylelint-config-styled-components-processor`
 
-> The shareable stylelint config for [stylelint-processor-styled-components](https://github.com/styled-components/stylelint-processor-styled-components)
+The shareable stylelint config for [stylelint-processor-styled-components](https://github.com/styled-components/stylelint-processor-styled-components)
 
-When using `stylelint-processor-styled-components` a couple of stylelint rules throw errors that you
-cannot prevent. Like '[no-empty-source](https://stylelint.io/user-guide/rules/no-empty-source)' or 
+When using [stylelint-processor-styled-components](https://github.com/styled-components/stylelint-processor-styled-components)
+a couple of stylelint rules throw errors that you cannot prevent. Like 
+'[no-empty-source](https://stylelint.io/user-guide/rules/no-empty-source)' or 
 '[no-missing-end-of-source-newline](https://stylelint.io/user-guide/rules/no-missing-end-of-source-newline)'.
 
 This shareable config will automatically disable rules that cause unresolvable conflicts. Besides
