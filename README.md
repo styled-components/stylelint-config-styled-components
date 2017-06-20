@@ -12,10 +12,8 @@ a couple of stylelint rules throw errors that you cannot prevent. Like
 This shareable config will automatically disable rules that cause unresolvable conflicts. Besides
 those rules vendor prefixed [properties](https://stylelint.io/user-guide/rules/property-no-vendor-prefix)
 and [values](https://stylelint.io/user-guide/rules/value-no-vendor-prefix) will throw an error since
-styled-components automatically generates vendor prefixes for your css.
-
-Note that if you want to change any of these rules you can always override them in your stylelint
-config.
+styled-components automatically generates vendor prefixes for your css. Note that if you want to
+change any of these rules you can always override them in your stylelint config.
 
 ## installation
 
