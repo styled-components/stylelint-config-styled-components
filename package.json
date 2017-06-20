@@ -1,8 +1,16 @@
 {
   "name": "stylelint-config-styled-components-processor",
   "version": "0.1.0",
-  "description": "A shareable config for stylelint-processor-styled-components",
+  "description": "A shareable stylelint config for stylelint-processor-styled-components",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/styled-components/stylelint-config-styled-components-processor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/styled-components/stylelint-config-styled-components-processor/issues"
+  },
+  "homepage": "https://github.com/styled-components/stylelint-config-styled-components-processor#readme",
   "keywords": [
     "stylelint",
     "stylelint-config",
