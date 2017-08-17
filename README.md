@@ -31,7 +31,7 @@ After installing, add this config to your stylelint config like so:
 }
 ```
 
-If you're extending multiple shareable configs, put this config as the last so it overrides all the previous configs when it comes to the rules relevant to Styled Components like so:
+If you're extending multiple shareable configs, put this config as the last so it overrides the relevant rules in all previous configs:
 
 ```
 {
