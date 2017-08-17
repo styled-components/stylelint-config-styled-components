@@ -31,14 +31,13 @@ After installing, add this config to your stylelint config like so:
 }
 ```
 
-If you're extending multiple shareable configs, put this config as the first so it overrides all
-following rules like so:
+If you're extending multiple shareable configs, put this config as the last so it overrides the relevant rules in all previous configs:
 
 ```
 {
   "extends": [
-    "stylelint-config-styled-components-processor"
     "stylelint-config-standard",
+    "stylelint-config-styled-components-processor"
   ]
 }
 ```
