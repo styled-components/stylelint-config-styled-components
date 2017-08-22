@@ -3,7 +3,8 @@
 exports[`stylelint-config-styled-components-processor does not allow vendor prefixes in properties 1`] = `
 "
 [4m<input css 2>[24m
- [2m1:5[22m  [31m[31m[31m[31m[31m[31m[31m[31m[31m[31m✖[31m[39m  Unexpected vendor-prefix \\"-webkit-transform\\"   [2m[2m[2m[2mproperty-no-vendor-prefix[22m
+ [2m1:5[22m  [31m[31m[31m[31m[31m[31m[31m[31m[31m[31m✖[31m[39m  Unexpected vendor-prefix                     [2m[2m[2m[2mproperty-no-vendor-prefix[22m
+         \\"-webkit-transform\\"
 
 "
 `;
