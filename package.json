@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-styled-components-processor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A shareable stylelint config for stylelint-processor-styled-components",
   "main": "index.js",
   "scripts": {
