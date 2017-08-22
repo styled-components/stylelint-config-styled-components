@@ -1,0 +1,10 @@
+language: node_js
+notifications:
+  email: false
+node_js:
+  - "8"
+install:
+  - npm i -g npm
+  - npm i
+script:
+  - npm test

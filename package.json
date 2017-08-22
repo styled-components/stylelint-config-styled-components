@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "A shareable stylelint config for stylelint-processor-styled-components",
   "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/styled-components/stylelint-config-styled-components-processor.git"
@@ -20,5 +23,10 @@
     "index.js"
   ],
   "author": "ismay",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^20.0.4",
+    "stylelint": "^8.0.0",
+    "stylelint-config-standard": "17.0.0"
+  }
 }
