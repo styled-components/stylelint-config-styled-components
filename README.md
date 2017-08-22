@@ -2,6 +2,7 @@
 
 The shareable stylelint config for [stylelint-processor-styled-components](https://github.com/styled-components/stylelint-processor-styled-components)
 
+[![npm version][version-badge]][version-url]
 [![build status][build-badge]][build-url]
 
 ## Why
@@ -51,5 +52,7 @@ stylelint can be configured.
 
 [MIT](http://ismay.mit-license.org/)
 
+[version-badge]: https://img.shields.io/npm/v/stylelint-config-styled-components-processor.svg
+[version-url]: https://www.npmjs.com/package/stylelint-config-styled-components-processor
 [build-badge]: https://travis-ci.org/styled-components/stylelint-config-styled-components-processor.svg?branch=master
 [build-url]: https://travis-ci.org/styled-components/stylelint-config-styled-components-processor
