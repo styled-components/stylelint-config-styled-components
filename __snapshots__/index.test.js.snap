@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`stylelint-config-styled-components-processor does not allow vendor prefixes in properties 1`] = `
+"
+[4m<input css 2>[24m
+ [2m1:5[22m  [31m[31m[31m[31m[31m[31m[31m[31m[31m[31m✖[31m[39m  Unexpected vendor-prefix \\"-webkit-transform\\"   [2m[2m[2m[2mproperty-no-vendor-prefix[22m
+
+"
+`;
+
+exports[`stylelint-config-styled-components-processor does not allow vendor prefixes in values 1`] = `
+"
+[4m<input css 1>[24m
+ [2m1:14[22m  [31m[31m[31m[31m[31m[31m[31m[31m[31m[31m✖[31m[39m  Unexpected vendor-prefix \\"-webkit-flex\\"   [2m[2m[2m[2mvalue-no-vendor-prefix[22m
+
+"
+`;
