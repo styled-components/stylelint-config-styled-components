@@ -2,6 +2,8 @@
 
 The shareable stylelint config for [stylelint-processor-styled-components](https://github.com/styled-components/stylelint-processor-styled-components)
 
+[![build status][build-badge]][build-url]
+
 ## Why
 
 When using [stylelint-processor-styled-components](https://github.com/styled-components/stylelint-processor-styled-components)
@@ -48,3 +50,6 @@ stylelint can be configured.
 ## License
 
 [MIT](http://ismay.mit-license.org/)
+
+[build-badge]: https://travis-ci.org/styled-components/stylelint-config-styled-components-processor.svg?branch=master
+[build-url]: https://travis-ci.org/styled-components/stylelint-config-styled-components-processor
