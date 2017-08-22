@@ -15,7 +15,7 @@ describe('stylelint-config-styled-components-processor', () => {
       })
       .then(result => {
         expect(result.errored).toBe(true)
-        expect(result.output).toMatchSnapshot()
+        expect(result.output.includes('value-no-vendor-prefix')).toBe(true)
       })
   })
 
@@ -33,7 +33,7 @@ describe('stylelint-config-styled-components-processor', () => {
       })
       .then(result => {
         expect(result.errored).toBe(true)
-        expect(result.output).toMatchSnapshot()
+        expect(result.output.includes('property-no-vendor-prefix')).toBe(true)
       })
   })
 
