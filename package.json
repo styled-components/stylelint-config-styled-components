@@ -3,6 +3,11 @@
   "version": "0.1.1",
   "description": "A shareable stylelint config for stylelint-processor-styled-components",
   "main": "index.js",
+  "greenkeeper": {
+    "ignore": [
+      "stylelint-config-standard"
+    ]
+  },
   "scripts": {
     "test": "jest"
   },
