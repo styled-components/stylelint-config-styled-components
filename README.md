@@ -4,6 +4,7 @@ The shareable stylelint config for [stylelint-processor-styled-components](https
 
 [![npm version][version-badge]][version-url]
 [![build status][build-badge]][build-url]
+[![greenkeeper badge][greenkeeper-badge]][greenkeeper-url]
 
 ## Why
 
@@ -56,3 +57,5 @@ stylelint can be configured.
 [version-url]: https://www.npmjs.com/package/stylelint-config-styled-components-processor
 [build-badge]: https://travis-ci.org/styled-components/stylelint-config-styled-components-processor.svg?branch=master
 [build-url]: https://travis-ci.org/styled-components/stylelint-config-styled-components-processor
+[greenkeeper-badge]: https://badges.greenkeeper.io/styled-components/stylelint-config-styled-components-processor.svg
+[greenkeeper-url]: https://greenkeeper.io/
