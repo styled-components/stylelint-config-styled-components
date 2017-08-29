@@ -1,6 +1,6 @@
 const stylelint = require('stylelint')
 
-describe('stylelint-config-styled-components-processor', () => {
+describe('stylelint-config-styled-components', () => {
   it('does not allow vendor prefixes in values', () => {
     const css = 'a { display: -webkit-flex; }'
     expect.assertions(2)
