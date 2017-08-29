@@ -1,4 +1,4 @@
-# `stylelint-config-styled-components-processor`
+# `stylelint-config-styled-components`
 
 The shareable stylelint config for [stylelint-processor-styled-components](https://github.com/styled-components/stylelint-processor-styled-components)
 
@@ -22,7 +22,7 @@ change any of these rules you can always override them in your stylelint config.
 ## Installation
 
 ```
-npm install stylelint-config-styled-components-processor --save-dev
+npm install stylelint-config-styled-components --save-dev
 ```
 
 ## Usage
@@ -31,7 +31,7 @@ After installing, add this config to your stylelint config like so:
 
 ```
 {
-  "extends": "stylelint-config-styled-components-processor"
+  "extends": "stylelint-config-styled-components"
 }
 ```
 
@@ -41,7 +41,7 @@ If you're extending multiple shareable configs, put this config as the last so i
 {
   "extends": [
     "stylelint-config-standard",
-    "stylelint-config-styled-components-processor"
+    "stylelint-config-styled-components"
   ]
 }
 ```
@@ -53,9 +53,9 @@ stylelint can be configured.
 
 [MIT](http://ismay.mit-license.org/)
 
-[version-badge]: https://img.shields.io/npm/v/stylelint-config-styled-components-processor.svg
-[version-url]: https://www.npmjs.com/package/stylelint-config-styled-components-processor
-[build-badge]: https://travis-ci.org/styled-components/stylelint-config-styled-components-processor.svg?branch=master
-[build-url]: https://travis-ci.org/styled-components/stylelint-config-styled-components-processor
-[greenkeeper-badge]: https://badges.greenkeeper.io/styled-components/stylelint-config-styled-components-processor.svg
+[version-badge]: https://img.shields.io/npm/v/stylelint-config-styled-components.svg
+[version-url]: https://www.npmjs.com/package/stylelint-config-styled-components
+[build-badge]: https://travis-ci.org/styled-components/stylelint-config-styled-components.svg?branch=master
+[build-url]: https://travis-ci.org/styled-components/stylelint-config-styled-components
+[greenkeeper-badge]: https://badges.greenkeeper.io/styled-components/stylelint-config-styled-components.svg
 [greenkeeper-url]: https://greenkeeper.io/
