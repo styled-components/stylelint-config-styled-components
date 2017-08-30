@@ -25,29 +25,14 @@ change any of these rules you can always override them in your stylelint config.
 npm install stylelint-config-styled-components --save-dev
 ```
 
-## Usage
+## [Documentation](https://www.styled-components.com/docs/tooling#)
 
-After installing, add this config to your stylelint config like so:
+**The documentation for this config lives on [the styled-components website](https://www.styled-components.com/docs/tooling#)!**
 
-```
-{
-  "extends": "stylelint-config-styled-components"
-}
-```
-
-If you're extending multiple shareable configs, put this config as the last so it overrides the relevant rules in all previous configs:
-
-```
-{
-  "extends": [
-    "stylelint-config-standard",
-    "stylelint-config-styled-components"
-  ]
-}
-```
-
-See also https://stylelint.io/user-guide/configuration for documentation on the various ways
-stylelint can be configured.
+- [Interpolation tagging](https://www.styled-components.com/docs/tooling#interpolation-taggingp)
+- [Tags](https://www.styled-components.com/docs/tooling#tags)
+- [sc-custom](https://www.styled-components.com/docs/tooling#sc-custom)
+- [Syntax Notes](https://www.styled-components.com/docs/tooling#syntax-notes)
 
 ## License
 
