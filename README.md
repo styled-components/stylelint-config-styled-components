@@ -6,6 +6,8 @@ The shareable stylelint config for [stylelint-processor-styled-components](https
 [![build status][build-badge]][build-url]
 [![greenkeeper badge][greenkeeper-badge]][greenkeeper-url]
 
+**If you're having problems with stylelint and styled-components, please submit an issue over at the [stylelint processor](https://github.com/styled-components/stylelint-processor-styled-components)!**
+
 ## Why
 
 When using [stylelint-processor-styled-components](https://github.com/styled-components/stylelint-processor-styled-components)
