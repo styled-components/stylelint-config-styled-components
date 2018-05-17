@@ -3,6 +3,7 @@ notifications:
   email: false
 node_js:
   - "8"
+  - "10"
 install:
   - npm i -g npm
   - npm i
