@@ -38,7 +38,7 @@ describe('stylelint-config-styled-components', () => {
   })
 
   it('disables no-empty-source', () => {
-    const css = '\n'
+    const css = ''
     expect.assertions(1)
 
     return stylelint
