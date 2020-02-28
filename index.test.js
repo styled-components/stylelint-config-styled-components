@@ -74,4 +74,23 @@ describe('stylelint-config-styled-components', () => {
         expect(result.errored).toBe(false)
       })
   })
+
+  it('allows unknown placeholder from styled-components processor', () => {
+    const css = '-styled-mixin0 { color: blue; }\n$dummyValue { color: blue; }';
+    expect.assertions(1)
+
+    return stylelint
+      .lint({
+        code: css,
+        config: {
+          extends: [
+            'stylelint-config-standard',
+            './index'
+          ]
+        }
+      })
+      .then(result => {
+        expect(result.errored).toBe(false)
+      })
+  })
 })
