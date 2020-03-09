@@ -31,7 +31,7 @@
   "license": "MIT",
   "devDependencies": {
     "jest": "^20.0.4",
-    "stylelint": "^10.0.0",
+    "stylelint": "^13.2.1",
     "stylelint-config-standard": "17.0.0"
   }
 }
