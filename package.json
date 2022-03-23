@@ -30,8 +30,8 @@
   "author": "ismay",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^20.0.4",
-    "stylelint": "^10.0.0",
-    "stylelint-config-standard": "17.0.0"
+    "jest": "^27.5.1",
+    "stylelint": "^14.6.0",
+    "stylelint-config-standard": "25.0.0"
   }
 }
