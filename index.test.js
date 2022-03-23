@@ -74,4 +74,24 @@ describe('stylelint-config-styled-components', () => {
         expect(result.errored).toBe(false)
       })
   })
+
+  it('disables function-no-unknown', () => {
+    const css = `color: ${(theme) => theme.color.primary};`
+    expect.assertions(1)
+
+    return stylelint
+      .lint({
+        code: css,
+        config: {
+          extends: [
+            'stylelint-config-standard',
+            './index'
+          ]
+        }
+      })
+      .then(result => {
+        expect(result.errored).toBe(false)
+      })
+  })
+
 })
